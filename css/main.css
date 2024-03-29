@@ -120,16 +120,15 @@ body {
 /* SITE-HEADER , HEADER-HERO */
 .site-header {
   max-width: 100%;
-  height: 10vh;
-  padding-top: 3vh;
+  /* height: 10vh;
+  padding-top: 3vh; */
 }
 .header-nav {
   width: 500px;
   height: 100%;
   column-gap: 64px;
 }
-.header-logo__img {
-}
+
 .header-nav__list {
   height: 100%;
   width: 50%;
@@ -139,8 +138,7 @@ body {
   margin: 0 !important;
   column-gap: 40px;
 }
-.header-nav__item {
-}
+
 .header-nav__link {
   color: var(--Juan-blue);
   font-family: var(--Public-Sans);
@@ -172,8 +170,7 @@ body {
   align-items: center;
   row-gap: 43px;
 }
-.offcanvas-item {
-}
+
 .offcanvas-link {
   color: var(--Link-Water-White);
   text-align: center;
@@ -202,10 +199,7 @@ body {
   column-gap: 40px;
   row-gap: 31px;
 }
-.site-footer__item {
-}
-.header-nav__logo {
-}
+
 .header-logo__img {
   width: 135px;
   height: 38px;
@@ -216,9 +210,6 @@ body {
   font-size: 15px;
   font-weight: 700;
   opacity: 0.7;
-}
-.site-footer__link:hover{
-
 }
 .footer-logo-linker {
   display: flex;
@@ -232,3 +223,307 @@ body {
 }
 
 /* FOOTER START */
+/* ABOUT START */
+.container {
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1320px;
+  }
+}
+
+.about-main {
+  text-align: center;
+}
+
+.heading {
+  width: 730px;
+  height: 189px;
+  flex-shrink: 0;
+  color: #36536B;
+  font-family: "DM Serif Display";
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 56px; /* 100% */
+  letter-spacing: -0.431px;
+
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Public Sans', sans-serif;
+}
+
+@media (min-width: 1200px) {
+  .heading {
+    font-size: 56px;
+    line-height: 56px;
+    max-width: 700px;
+    margin: 0px auto 60px 0px;
+    text-align: left;
+  }
+}
+
+section {
+  display: block;
+}
+
+.our-vision,
+.our-culture {
+  margin-bottom: 48px;
+}
+
+.our-vision,
+.our-culture {
+  margin-bottom: 48px;
+}
+
+.our-vision__heading,
+.our-business__heading,
+.our-culture__heading,
+.our-people__heading {
+  font-family: 'DM Serif Display', serif;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 1.18px;
+  color: #36536b;
+  margin-bottom: 16px;
+}
+
+@media (min-width: 768px) {
+
+  .our-vision,
+  .our-culture,
+  .our-business,
+  .our-people {
+    display: grid;
+    grid-template-columns: 1.5fr 2.75fr;
+    text-align: left;
+  }
+}
+
+@media (min-width: 1200px) {
+
+  .our-vision,
+  .our-culture,
+  .our-business,
+  .our-people {
+    grid-template-columns: 1.5fr 2.25fr;
+  }
+}
+
+p {
+  line-height: 28px;
+}
+
+h3 {
+  display: block;
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+.btn-section{
+  margin-bottom: 90px;
+
+}
+.input_bg {
+  border-radius: 24px;
+  background-color: #FBFCFE;
+  box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+}
+.container{
+  justify-content: space-between;
+  margin-top: 93px;
+
+}
+.input_bg:hover {
+  border-radius: 24px;
+  background-color: #FBFCFE;
+  box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+}
+.input_section {
+  width: 445px;
+  height: 48px;
+  flex-shrink: 0;
+}
+.our-vision__heading,
+.our-business__heading,
+.our-culture__heading,
+.our-people__heading {
+  font-family: 'DM Serif Display', serif;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 1.18px;
+  color: #36536b;
+  margin-bottom: 16px;
+}
+
+@media (min-width: 768px) {
+
+  .our-vision__heading,
+  .our-business__heading,
+  .our-culture__heading,
+  .our-people__heading {
+    font-size: 36px;
+    line-height: 40px;
+    margin-top: 16px;
+  }
+}
+
+.about__business-img{
+  max-width: 100%;
+  width: 1440px;
+}
+.team-stats {
+  margin: 60px 0px;
+  padding: 24px 0px;
+  border-top: 1px solid #bfcbd5;
+  border-bottom: 1px solid #bfcbd5;
+}
+.business-img{
+  width: 100%;
+height: 100%;
+flex-shrink: 0;
+}
+
+@media (min-width: 768px) {
+  .team-stats {
+    margin: 60px 0px;
+    padding: 24px 0px;
+    border-top: none;
+    border-bottom: none;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.team-stats__members,
+.team-stats__offices,
+.team-stats__transactions {
+  border-top: 1px solid #bfcbd5;
+  border-bottom: 1px solid #bfcbd5;
+}
+
+.team-stats__offices {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+@media (min-width: 1200px) {
+  .team-stats {
+    text-align: left;
+  }
+
+  .team-stats__offices {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+}
+
+.team-stats__members-heading,
+.team-stats__offices-heading,
+.team-stats__transactions-heading {
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: normal;
+  font-family: 'DM Serif Display', serif;
+  color: #6d8395;
+  margin-bottom: 0;
+}
+
+.team-stats__members-stat,
+.team-stats__offices-stat,
+.team-stats__transactions-stat {
+  font-size: 56px;
+  line-height: 72px;
+  color: #ba4270;
+  margin-top: 0;
+  margin-bottom: 32px;
+}
+.our-people__description{
+  width: 456px;
+  flex-shrink: 0;
+  color: #6C8294;
+font-family: "Public Sans";
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 186.667% */
+}
+.our-business__description{
+  width: 456px;
+  flex-shrink: 0;
+  color: #6C8294;
+font-family: "Public Sans";
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 186.667% */
+}
+
+.our-vision__description{
+  width: 456px;
+  flex-shrink: 0;
+  color: #6C8294;
+font-family: "Public Sans";
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 186.667% */
+}
+
+.form-floating{
+  position: relative;
+}
+.form-control {
+  position: absolute;
+  width: 445px;
+  height: 42px;
+  flex-shrink: 0;
+  box-shadow: unset;
+  border: none;
+  background: #FBFCFE;
+  transition: .5s;
+  border-radius: none;
+
+}
+.hero-imp__btn{
+  position: absolute;
+  right: 0;
+}
+/* ABOUT END */
