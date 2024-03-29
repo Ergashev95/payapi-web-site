@@ -1,16 +1,9 @@
-@media (max-width:992px){
-    .hero-texts{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+@media (max-width:768px){
+    .site-footer{
+        height: 200px;
     }
-    .hero-title{
-        max-width: 100%;
-        width: 100%;
-        text-align: justify;
+    .footer-nav{
         display: flex;
         flex-direction: column;
-        align-items: center;
-
     }
 }
