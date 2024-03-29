@@ -1,5 +1,12 @@
 @import url(./fonts.css);
 /* Castom props */
+*,
+*::after,
+*::before{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 :root {
   --Prymry-color: #ba4270;
   --Link-Water-White: #fbfcfe;
@@ -185,6 +192,74 @@ body {
 
 /* HERO */
 
+.site-hero {
+}
+.container {
+}
+.row {
+}
+.col-6 {
+
+}
+.hero-texts {
+  max-width: 350px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.hero-title {
+  width: 546px;
+  height: 243px;
+  color: var(--Juan-blue);
+  font-family: var(--DM-Serif-Display);
+  font-size: 72px;
+  font-weight: 400;
+  line-height: 72px;
+  letter-spacing: -0.554px;
+}
+.form-floating {
+  width: 540px;
+  height: 60px;
+  display: flex;
+  position: relative;
+}
+.mb-3 {
+}
+.form-control {
+  position: absolute;
+  border-radius: 24px;
+}
+.form-control:focus {
+  box-shadow: none;
+  border: #1b262f;
+}
+.hero-btn {
+  position: absolute;
+  right: 0;
+  padding-bottom: 25px;
+}
+.all-btn {
+}
+.d-none {
+}
+.d-md-inline-block {
+}
+.hero-decsription {
+  color: #6c8294;
+  font-family: var(--Public-Sans);
+  font-size: 15px;
+  font-weight: 400;
+}
+.hero-imager {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.hero-imager-img {
+  
+}
 /* HERO */
 /* SITE-HEADER , HEADER-HERO */
 /* HOME PAGE CSS START */
@@ -195,6 +270,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 200px;
 }
 
 .site-footer__list {
@@ -217,12 +293,11 @@ body {
   font-weight: 700;
   opacity: 0.7;
 }
-.site-footer__link:hover{
-
+.site-footer__link:hover {
 }
 .footer-logo-linker {
   display: flex;
-  column-gap: 30px  ;
+  column-gap: 30px;
 }
 .footer-glav__item {
   margin-right: 24px;
