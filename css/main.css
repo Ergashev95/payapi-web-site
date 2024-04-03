@@ -116,10 +116,17 @@ body {
   background: var(--bg-body);
 }
 /* list style */
+/* container */
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: unset;
+}
+/* container */
 /* HOME PAGE CSS START */
 /* SITE-HEADER , HEADER-HERO */
 .site-header {
-  max-width: 100%;
+  /* max-width: 100%; */
   height: 10vh;
   padding-top: 3vh;
 }
@@ -171,8 +178,6 @@ body {
   flex-direction: column;
   align-items: center;
   row-gap: 43px;
-}
-.offcanvas-item {
 }
 .offcanvas-link {
   color: var(--Link-Water-White);
@@ -241,8 +246,6 @@ body {
   width: 850px;
   flex-shrink: 0;
   padding-top: 70px;
-
-
 }
 
 
@@ -323,7 +326,6 @@ body {
 
 .container{
   justify-content: space-between;
-  margin-top: 93px;
 
 }
 .contact_image{
@@ -355,7 +357,7 @@ body {
 
 .input-text{
   display: flex;
-  /* align-items: center; */
+  align-items: center;
   padding-top: 24px;
   
 
@@ -368,7 +370,7 @@ font-family: "Public Sans";
 font-size: 15px;
 font-style: normal;
 font-weight: 400;
-line-height: 25px; /* 166.667% */
+line-height: 25px;
 letter-spacing: -0.115px;
 margin-left: 15px;
 }
@@ -383,23 +385,129 @@ margin-top: 13px;
 /* contact */
 
 
-.site-footer {
-  background: var(--Mirage-blue);
-  /* padding: 31px 0px; */
+/* Pricing */
+
+.pricing {
+  padding-top: 87px;
+}
+
+.pricing-title {
+    color: var(--Juan-blue);
+    font-family: var(--DM-Serif-Display);
+    font-size: 56px;
+    font-weight: 400;
+    line-height: 56px;
+    letter-spacing: -0.431px;
+    padding-bottom: 72px;
+}
+/* CARDS */
+.pricing-cards {
   display: flex;
-  /* justify-content: center; */
- 
+  align-items: center;
+  justify-content: center;
+  column-gap: 30px;
 
+}
+.pricing-card {
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+}
+.pricing-card__title {
+  color: var(--prymry-active);
+  font-family: var(--DM-Serif-Display);
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: -0.246px;
+  height: unset;
+}
+.pricing-card__text {
+  color: var(--Juan-blue);
+  font-family: var(--Public-Sans);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 28px;
+  height: unset;
+}
+.pricing-card__num {
+  color: var(--Juan-blue);
+  font-family: var(--DM-Serif-Display);
+  font-size: 56px;
+  font-weight: 400;
+  line-height: 72px;
+  letter-spacing: -0.431px;
+  display: block;
+}
+.light {
+width: 350px;
+height: 1px;
+opacity: 0.25;
+background: var(--Juan-blue);
+margin-bottom: 20px;
+}
+.pricing-card__texts {
+display: flex;
+flex-direction: column;
+row-gap: 8px;
+padding-bottom: 15px;
+}
+.pricing-card__about {
+color: var(--Juan-blue);
+font-size: 16px;
+font-weight: 400;
+line-height: 28px;
+}
+.pricing-card__about:hover {
+  color: var(--Juan-blue);
+}
+.light-text {
+opacity: .5;
+padding-left: 16px;
+}
+.pricing-button {
+max-width: 168px;
+margin-bottom: 100px;
+text-align: center;
+}
+/* CARDS */
+/*READY  */
+.ready {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  position: unset;
+  padding-bottom: 100px;
+}
+
+.ready-title {
+  color: var(--Juan-blue);
+  font-size: 48px;
+  font-family: var(--DM-Serif-Display);
+  font-weight: 400;
+  line-height: 56px;
+  letter-spacing: -0.369px;
+}
+.form-floating {
+  /* max-width: 445px; */
+}
+/* READY */
+/* .pricing */
+
+
+.site-footer {
   
-
+  background: var(--Mirage-blue);
+  display: flex;justify-content: space-between;
+  align-items: center;
 }
 
 .site-footer__list {
   display: flex;
   column-gap: 40px;
-  row-gap: 31px;
-
-  
+  /* row-gap: 31px; */
 }
 
 .header-logo__img {
@@ -412,5 +520,28 @@ margin-top: 13px;
   font-size: 15px;
   font-weight: 700;
   opacity: 0.7;
+}
+
+.form-control {
+  border-radius: 24px;
+  background: #FBFCFE;
+  box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+  align-items: center;
+}
+.form-control:hover {
+  padding: unset;
+  border-radius: 24px;
+  background: #FBFCFE;
+  box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+}
+.form-control:active {
+  border-radius: 24px;
+  background: #FBFCFE;
+  box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+  position: relative;
+}
+.hero-imp__btn{
+  position: absolute;
+  right: 0;
 }
 

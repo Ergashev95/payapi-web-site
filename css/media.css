@@ -1,9 +1,110 @@
-@media (max-width:768px){
+@media (max-width: 768px){
     .site-footer{
         height: 200px;
     }
     .footer-nav{
         display: flex;
         flex-direction: column;
+    }
+    .container {
+        max-width: 768px;
+        padding: 0 40px;
+
+    }
+    .pricing-title {
+        font-size: 48px;
+        text-align: center;
+    }
+    .pricing-card {
+        max-width: 223px;
+    }
+    .pricing-card__title {
+        text-align: center;
+    }
+    .pricing-card__text {
+        text-align: center;
+    }
+    .pricing-card__num {
+        text-align: center;
+    }
+    .light {
+        max-width: 223px;
+    }
+    .pricing-card__texts {
+        text-align: center;
+        
+    }
+    .pricing-card__about {
+    }
+    .pricing-button {
+        max-width: 168px;
+        font-size: 15px;
+    }
+    .ready {
+        flex-direction: column;
+    }
+    .ready-title {
+        text-align: center;
+        padding-bottom: 40px;
+    }
+    .form-floating {
+        display: flex;
+        margin: auto;
+    }
+    .footer {
+        max-width: 768px;
+    }
+}
+@media (max-width: 567px) {
+    body {
+        width: 100%;
+        height: 100%;
+        /* display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center; */
+        margin: auto;
+    }
+    .container {
+        max-width: 327px;
+        width: 100%;
+    }
+    .pricing {
+        max-width: 375px;
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+    .pricing-cards {
+        display: flex;
+        flex-wrap: wrap;
+        row-gap: 48px;
+        margin-bottom: 50px;
+    }
+    .pricing-card {
+        text-align: center;
+    }
+    .form-floating {
+        max-width: 327px;
+        width: 100%;
+        flex-wrap: wrap;
+        row-gap: 16px;
+    }
+    .form-control {
+        width: 100%;
+        position: unset;
+    }
+    .hero-imp__btn {
+        width: 100%;
+        position: unset;
+    }
+    .ready-title {
+        font-size: 32px;
+    }
+    .pricing-card__about {
+        font-size: 16px;
+    }
+    .pricing-button {
+        margin: auto;
     }
 }
